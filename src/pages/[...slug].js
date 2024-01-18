@@ -18,7 +18,7 @@ export default DynamicPage
 
 export async function getStaticPaths() {
 
-    let generatedPaths = [];
+    let generatedPaths = [{ params: {}];
 
     // CITY //mumbai
     CITY.forEach(city => {
